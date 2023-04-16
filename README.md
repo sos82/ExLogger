@@ -23,6 +23,7 @@ The logger file contains:
 + 0 - 1 | TYPE = 02                   +
 + 2 - 5 | Module ID                   +
 + 6 - 8 | Message ID                  +
++  | Message type                  +
 + 9 - 12 | Length                     +
 + 13 - n | Content of message         +
 +++++++++++++++++++++++++++++++++++++++
@@ -31,6 +32,7 @@ The logger file contains:
 +++++++++++++++++++++++++++++++++++++++
 + 0 - 1 | TYPE = 03                   +
 + 2 - 5 | Module ID                   +
++  | Message type                  +
 + 6 - 13| Time                        +
 + 14 - 17 | Length                      +
 + 18 - n | data                        +
